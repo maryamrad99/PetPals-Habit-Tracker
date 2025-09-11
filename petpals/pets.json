@@ -1,0 +1,31 @@
+{
+    "pets": [
+        {
+            "id": 1,
+            "species": "dog",
+            "nickname": "Buddy",
+            "happiness_level": 70,
+            "pet_age": 1,
+            "experience_points": 20,
+            "unlocked_items": []
+        },
+        {
+            "id": 2,
+            "species": "cat",
+            "nickname": "Mimi",
+            "happiness_level": 50,
+            "pet_age": 0,
+            "experience_points": 0,
+            "unlocked_items": []
+        },
+        {
+            "id": 3,
+            "species": "Puppy",
+            "nickname": "Jenna",
+            "happiness_level": 50,
+            "pet_age": 0,
+            "experience_points": 0,
+            "unlocked_items": []
+        }
+    ]
+}
