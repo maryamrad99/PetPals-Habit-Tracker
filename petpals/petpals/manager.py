@@ -117,7 +117,7 @@ class HabitManager:
 
     def view_streak(self, habit_id):
         """Return (current_streak, longest_streak) for a habit or None if not found"""
-        habit = self.get_habit(habit_id)
+        habit = next((h for h in self.habits if h.id == habit_id), None)
         if not habit:
             return None
         return habit.current_streak(), habit.longest_streak()
